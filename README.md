@@ -1,4 +1,4 @@
-# Jobsheet 6: Percabangan Bersarang (Nested IF)
+# Jobsheet 6: Pemilihan/Percabangan Bersarang (Nested IF)
 
 Dokumen ini berisi panduan, dasar teori, serta contoh implementasi untuk **Jobsheet 6** mengenai struktur percabangan bertingkat (*Nested IF*).
 
