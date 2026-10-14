@@ -16,26 +16,26 @@ public class Tugas1DiskonBuku30switch {
         Scanner input = new Scanner(System.in);
         String jenisBuku;
         int jmlBuku;
-        double diskon, jmlDiskon;
+        double diskon, jmlDiskon = 0.0;
         System.out.print("Jenis buku apa yang anda beli ? (kamus/novel/lainnya): ");
         jenisBuku = input.next();
         System.out.print("Berapa jumlah buku yang anda beli ? : ");
         jmlBuku = input.nextInt();
         if (jenisBuku.toLowerCase() == "kamus") {
             if (jmlBuku > 2) {
-                jmlDiskon = +0.1;
+                jmlDiskon += 0.1;
             } else {
-                jmlDiskon = +0.08;
+                jmlDiskon += 0.08;
             }
         } else if (jenisBuku.toLowerCase() == "novel") {
             if (jmlBuku > 3) {
-                jmlDiskon = +0.09;
+                jmlDiskon += 0.09;
             } else {
-                jmlDiskon = +0.08;
+                jmlDiskon += 0.08;
             }
         } else {
             if (jmlBuku > 3) {
-                jmlDiskon = +0.05;
+                jmlDiskon += 0.05;
             } else {
                 jmlDiskon = 0.0;
             }
